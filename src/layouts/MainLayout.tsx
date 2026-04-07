@@ -7,7 +7,6 @@ import {
     Settings,
     HelpCircle,
     Bell,
-    LogOut,
     ChevronRight,
 } from "lucide-react";
 
