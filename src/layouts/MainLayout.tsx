@@ -7,14 +7,14 @@ import {
     Settings,
     HelpCircle,
     Bell,
-    LogOut,
-    ChevronRight,
+   // LogOut,
+   // ChevronRight,
 } from "lucide-react";
 
 // Layout con sidebar (usado en Dashboard/Panel de Control)
 export const SidebarLayout = () => {
-    const navigate = useNavigate();
-    const [notifCount] = useState(3);
+   // const navigate = useNavigate();
+   // const [notifCount] = useState(3);
 
     const navItems = [
         { to: "/dashboard", icon: <LayoutDashboard className="w-5 h-5" />, label: "Panel de Control" },

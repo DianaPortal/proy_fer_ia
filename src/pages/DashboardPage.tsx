@@ -1,5 +1,13 @@
 import { useNavigate } from "react-router-dom";
-import { Bell, FileText, Calendar, BarChart2, CheckCircle2, AlertTriangle, XCircle, Clock } from "lucide-react";
+import { 
+   // Bell,
+    FileText,
+    Calendar,
+    BarChart2, 
+    CheckCircle2, 
+    AlertTriangle, 
+    XCircle, 
+    Clock } from "lucide-react";
 import {
     mockNotifications,
     mockHourlyData,
@@ -82,7 +90,7 @@ const AccuracyBars = ({ data }: { data: { week: string; value: number }[] }) => 
 };
 
 const DashboardPage = () => {
-    const navigate = useNavigate();
+   // const navigate = useNavigate();
 
     return (
         <div className="p-6 min-h-screen">
