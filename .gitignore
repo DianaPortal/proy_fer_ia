@@ -22,3 +22,13 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Entorno virtual Python
+.venv/
+venv/
+
+# Cache
+__pycache__/
+*.pyc
+
+# Node (si usas React)
+node_modules/
