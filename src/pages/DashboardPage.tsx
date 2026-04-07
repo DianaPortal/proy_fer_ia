@@ -1,13 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { 
-   // Bell,
-    FileText,
-    Calendar,
-    BarChart2, 
-    CheckCircle2, 
-    AlertTriangle, 
-    XCircle, 
-    Clock } from "lucide-react";
+import { FileText, Calendar, BarChart2, CheckCircle2, AlertTriangle, XCircle, Clock } from "lucide-react";
 import {
     mockNotifications,
     mockHourlyData,
